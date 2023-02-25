@@ -1,0 +1,30 @@
+.product-card{
+    border: 1px solid #ddd;
+    height: 100%;
+    padding: 10px;
+    img{
+        margin-bottom: 20px;
+    }
+    h2,h4{
+        color: rgb(0, 0, 0,.8);
+    }
+    h2{
+        font-size:medium;
+    }
+    h4{
+        font-size: small;
+    }
+    button{
+        font-size:small;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        &:hover{
+            background: rgb(194, 194, 194);
+        }
+        svg{
+            margin-left: 5px;
+        }
+    }
+}
