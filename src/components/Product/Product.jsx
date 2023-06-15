@@ -12,7 +12,7 @@ const Product = (props) => {
                 <span>ID: {id}</span>
                 <p>Price : {price}</p>
                 <p>Seller : {seller}</p>
-                <button onClick={()=> props.handleAddToCart(id)} className="btn btn-dark">Add to cart</button>
+                <button onClick={()=> props.handleAddToCart(props.value)} className="btn btn-dark">Add to cart</button>
             </div>
         </div>
     );

@@ -1,0 +1,7 @@
+section.cart-section {
+    background: #f7ebe2;
+    height: 300px;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+}
